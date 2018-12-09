@@ -37,7 +37,10 @@
 
         <activity
             android:name=".RiderActivity"
-            android:label="@string/title_activity_rider"></activity>
+            android:label="@string/title_activity_rider" />
+        <activity
+            android:name=".DonerActivity"
+            android:label="@string/title_activity_doner"></activity>
     </application>
 
 </manifest>

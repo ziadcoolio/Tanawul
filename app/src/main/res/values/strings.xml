@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Tanawul</string>
     <string name="title_activity_rider">Map</string>
+    <string name="title_activity_doner">Map</string>
 </resources>
