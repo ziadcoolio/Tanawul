@@ -30,6 +30,16 @@ public class MainActivity extends AppCompatActivity {
                 toast.show();
             }
         }
+        else if(username.equals("donor")){
+            if(password.equals("1234")){
+                Intent intent = new Intent(MainActivity.this, DonerActivity.class);
+                startActivity(intent);
+            }
+            else{
+                Toast toast = Toast.makeText(MainActivity.this, "Invalid Password", Toast.LENGTH_SHORT);
+                toast.show();
+            }
+        }
         else{
             Toast toast = Toast.makeText(MainActivity.this, "Invalid Username", Toast.LENGTH_SHORT);
             toast.show();

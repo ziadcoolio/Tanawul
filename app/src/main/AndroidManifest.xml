@@ -40,7 +40,8 @@
             android:label="@string/title_activity_rider" />
         <activity
             android:name=".DonerActivity"
-            android:label="@string/title_activity_doner"></activity>
+            android:label="@string/title_activity_doner" />
+        <activity android:name=".DonorFormActivity"></activity>
     </application>
 
 </manifest>
